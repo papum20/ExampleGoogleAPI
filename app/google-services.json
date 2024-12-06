@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "00000000000",
+    "project_id": "examplesgoogleapi",
+    "storage_bucket": "examplesgoogleapi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:00000000000:android:aaaaaaaaaaaaaaaaaaaaaa",
+        "android_client_info": {
+          "package_name": "com.example.examplesgoogleapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "000000000000-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.examplesgoogleapi",
+            "certificate_hash": "aaaaaaaaaaaaaaaaaaaaaa"
+          }
+        },
+        {
+          "client_id": "000000000000-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "000000000000-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
