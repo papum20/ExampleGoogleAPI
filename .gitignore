@@ -1,0 +1,33 @@
+# bin
+**/build/
+
+# cache
+__pycache__
+
+# other
+.cxx
+.gradle
+local.properties
+/local.properties
+
+
+# dflt by android studio
+/captures
+.externalNativeBuild
+*.iml
+
+# editor
+.vscode/
+
+## idea
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+### debugging devices configs (otherwise mess up with paths on different machines)
+/.idea/deploymentTargetSelector.xml
+.DS_Store
+
+!**/.gitkeep

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityMain"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/settings_guidelineH_notifications_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="123dp" />
+
+        <Button
+            android:id="@+id/settings_btn_backupNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/btn_different_margin_v"
+            android:text="Backup now (Google Drive)"
+            android:textSize="@dimen/btn_fontSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/settings_guidelineH_notifications_end"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/settings_btn_backupNow"
+            >
+
+            <EditText
+                android:id="@+id/settings_file_title_et"
+                android:layout_height="48dp"
+                android:layout_width="match_parent"
+                 />
+
+            <EditText
+                android:id="@+id/settings_doc_content_et"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                 />
+
+            <Button
+                android:id="@+id/settings_btn_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="open"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="create"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="save"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="query"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="clear credential"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_createPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="create credential with password"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_createCredential"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="create credential"
+                />
+
+            <Button
+                android:id="@+id/settings_btn_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="signIn flow"
+                />
+
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

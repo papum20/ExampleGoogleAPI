@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="btn_different_margin_v">16dp</dimen>
+    <dimen name="btn_fontSize">14sp</dimen>
+
+</resources>
